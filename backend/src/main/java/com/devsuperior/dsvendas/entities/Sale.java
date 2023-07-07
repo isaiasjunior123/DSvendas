@@ -41,6 +41,12 @@ public class Sale {
 		this.date = date;
 	}
 
+	
+	public Seller getSeller() {
+	    return seller;
+	}
+
+	
 
 	public Long getId() {
 		return id;
